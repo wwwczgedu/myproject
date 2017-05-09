@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">水平滚动字幕内容</marquee>
+</body>
+<script>
+//    首先，需要有LRC文件，可以放在本地或者用Ajax读取。
+//
+//    其次需要解析LRC文件，生成排序的数组。下面的代码供参考。
+//
+//    最后，利用<audio>标签的currentTime属性获得当前播放的时间，实时刷新歌词显示。具体的显示代码可做成单行（最简单，替换标签内文本即可）、双行或者多行高亮都可以。
+    function parseLyric(text) {
+        lyric = text.split('\r\n'); //先按行分割
+        var _l = lyric.length; //获取歌词行数
+        lrc = new Array(); //新建一个数组存放最后结果
+        for (i = 0; i < _l; i++) {
+            var d = lyric[i].match(/\[\d{2}:\d{2}((\.|\:)\d{2})\]/g);  //正则匹配播放时间
+            var t = lyric[i].split(d); //以时间为分割点分割每行歌词，数组最后一个为歌词正文
+            if (d != null) { //过滤掉空行等非歌词正文部分
+                //换算时间，保留两位小数
+                var dt = String(d).split(':');
+                var _t = Math.round(parseInt(dt[0].split('[')[1]) * 60 + parseFloat(dt[1].split(']')[0]) * 100) / 100;
+                lrc.push([_t, t[1]]);
+            }
+            return lrc;
+        }
+    }
+
+
+
+//    个人使用Ajax，一般配合JQuery，因为非常方便。
+    $(document).ready(function(){
+        $("#b01").click(function(){ //绑定事件
+            htmlobj=$.ajax({url:"/jquery/test1.txt",async:false}); //获取test1.txt内容并赋值
+            $("#myDiv").html(htmlobj.responseText); //替换标签内的html
+        });
+    });
+</script>
+</html>

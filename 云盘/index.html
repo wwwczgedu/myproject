@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>云盘</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <span id="logo" class="glyphicon glyphicon-cloud"></span>
+            <span class="title">云盘</span>
+            <div class="transfer">
+                <span class="glyphicon glyphicon-sort"></span>
+            </div>
+            <div class="search">
+                <span class="glyphicon glyphicon-search"></span>
+                <input type="text" name="search" placeholder="输入文件名" class=""/>
+                <span class="remove">×</span>
+            </div>
+            <div class="menu">
+                <div class="btn-group group">
+                    <a class="btn active">全部</a>
+                    <a class="btn">分组</a>
+                </div>
+                <div class="btn-group display">
+                    <a class="btn active"><span class="glyphicon glyphicon glyphicon-menu-hamburger"></span></a>
+                    <a class="btn"><span class="glyphicon glyphicon-th-large"></span></a>
+                </div>
+                <div class="btn-group sort">
+                    <a class="btn active"><span class="glyphicon glyphicon-time"></span></a>
+                    <a class="btn"><span class="glyphicon glyphicon-sort-by-alphabet"></span></a>
+                </div>
+            </div>
+            <div class="add">
+                +<span>添加</span>
+                <div class="addMenu">
+                    <ul>
+                        <li><div><span>上传文件</span></div></li>
+                        <li><div><span>上传文件夹</span></div></li>
+                        <li><div><span>离线下载</span></div></li>
+                        <li><div><span>创建文件夹</span></div></li>
+                        <li><div><span>添加笔记</span></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+<section class="left">
+    <div class="user">
+        <div class="bg1">
+            <div class="bg2">
+                <div class="bg3">
+                    <div class="userImg"><img src="image/1.jpg" alt=""/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menuLeft">
+        <div class="conLeft">
+            <ul>
+                <li class="recent">
+                    <a href="#recent">
+                        <span class="glyphicon glyphicon-time"></span>最近
+                    </a>
+                </li>
+            </ul>
+            <h4>文件</h4>
+            <ul class="file">
+                <li class="all"><a href=""><span class="glyphicon glyphicon-tasks"></span>全部</a></li>
+                <li class="doc"><a href="#doc"><span class="glyphicon glyphicon-file"></span>文档</a></li>
+                <li class="photo"><a href="#photo"><span class="glyphicon glyphicon-picture"></span>照片</a></li>
+                <li class="video"><a href="#video"><span class="glyphicon glyphicon-facetime-video"></span>视频</a></li>
+                <li class="note"><a href="#note"><span class="glyphicon glyphicon-edit"></span>笔记</a></li>
+                <li class="music"><a href="#music"><span class="glyphicon glyphicon-music"></span>音乐</a></li>
+            </ul>
+            <h4>照片</h4>
+            <ul class="pho">
+                <li><a href="#photo-time"><span class="glyphicon glyphicon-calendar"></span>时间</a></li>
+            </ul>
+            <h4>我的</h4>
+            <ul class="my">
+                <li class="clipboard"><a href="#clipboard"><span class="glyphicon glyphicon-list-alt"></span>剪切板</a></li>
+                <li class="recycle"><a href="#recycle"><span class="glyphicon glyphicon-trash"></span>回收站</a></li>
+            </ul>
+        </div>
+        <div class="scrollBar"></div>
+    </div>
+</section>
+<section class="main">
+
+    <!--<ul>-->
+        <!--<li class="rowtype clear">-->
+            <!--<div class="check active"><span>√</span></div>-->
+            <!--<input type="text" value="少来烦。" class="text" disabled/>-->
+            <!--<ul class="clear">-->
+                <!--<li class="download"><span class="glyphicon glyphicon-cloud-download"></span>下载</li>-->
+                <!--<li class="shaer"><span class="glyphicon glyphicon-share-alt"></span>分享</li>-->
+                <!--<li class="rename"><span class="glyphicon glyphicon-edit"></span>重命名</li>-->
+                <!--<li class="delete"><span class="glyphicon glyphicon-trash"></span>删除</li>-->
+            <!--</ul>-->
+            <!--<div class="size">16k</div>-->
+            <!--<time>2017-02-23</time>-->
+        <!--</li>-->
+    <!--</ul>-->
+    <!--<ul class="nav">-->
+        <!--<li class="checkAll">√</li>-->
+        <!--<li></li>-->
+        <!--<li>云盘</li>-->
+    <!--</ul>-->
+    <!--<ul class="fileUl">-->
+        <!--<li class="active">-->
+            <!--<span class="glyphicon glyphicon-folder-close"></span><input type="text" value="少来烦。" class="" disabled/>-->
+            <!--<div class="check"><span>√</span></div>-->
+        <!--</li>-->
+    <!--</ul>-->
+    <!--<ul class="otherUl">-->
+        <!--<li class="active">-->
+            <!--<div class="preview"></div>-->
+            <!--<span></span>-->
+            <!--<input type="text" value="少来烦。" class="" disabled/>-->
+            <!--<div class="check"><span>√</span></div>-->
+        <!--</li>-->
+    <!--</ul>-->
+</section>
+<section class="operate">
+    <div class="container">
+        <div class="row">
+            <span class="logo glyphicon glyphicon-cloud"></span>
+            <span class="title">云盘</span>
+            <span class="cancel">取消选择</span>
+            <span class="num">选择了<strong>1</strong>项</span>
+            <ul class="clear">
+                <li class="download"><span class="glyphicon glyphicon-cloud-download"></span>下载</li>
+                <li class="shaer"><span class="glyphicon glyphicon-share-alt"></span>分享</li>
+                <li class="move"><span class="glyphicon glyphicon-move"></span>移动到</li>
+                <li class="rename"><span class="glyphicon glyphicon-edit"></span>重命名</li>
+                <li class="delete"><span class="glyphicon glyphicon-trash"></span>删除</li>
+            </ul>
+        </div>
+    </div>
+</section>
+</body>
+<script src="js/jquery-1.12.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</html>
