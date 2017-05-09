@@ -1,0 +1,85 @@
+/* reset */
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,pre,form,input,textarea,th,td,select{margin:0;padding:0;}
+em{font-style:normal}
+li{list-style:none}
+a{text-decoration:none;}
+img{border:none; vertical-align:top;}
+table{border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+/* end reset */
+/*public start*/
+body{font-family: "微软雅黑";}
+.clear:after{content: '';display: block;clear: both;}
+.clear{zoom: 1;}
+.markParent{position: relative;}
+.mark{position: absolute;left: 0;top: 0; width: 100%;height: 100%;background: rgba(0,0,0,0);transition: .5s background-color;}
+/*.mark:hover{background: rgba(0,0,0,0.5);}*/
+.mark span{
+	color: white;
+	border:2px solid white;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	position: absolute;
+    left: 50%;
+    top: -15px;
+    margin-left: -50px;
+    margin-top: -15px;
+    line-height: 30px;
+    transition: .3s top;
+}
+.active{background: rgba(0,0,0,0.5);}
+.active span{display: inline-block;top: 50%;}
+/*public end*/
+/*navabr start*/
+.navbar{width: 100%; font-family: "微软雅黑"; background: white;margin-bottom: 0px;position: fixed;transition: 1s top;z-index: 2;}
+.navbar .logo{width: 132px;height: 30px;}
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/*navbar end*/
+#banner .container-fluid{background: url(http://www.sunmoweb.com/home/shangmai/images/pub_b.jpg) no-repeat center;background-size: cover;width: 100%; height: 220px;}
+#team{padding: 100px 0 50px 0;}
+#team h4{color: #333;font-family: "微软雅黑";margin-top: 10px;}
+#team .carousel{height: 620px;}
+#team .carousel ul{
+	width: 4680px;
+	text-align: center;
+    color: white;
+}
+
+#team .carousel ul li{position: relative;}
+#team .carousel ul li .carousel-text{position: absolute;width: 100%;height: 100%;top: 0;padding-top: 500px;}
+#team .col-sm-4 ,#team .col-sm-6{margin: 0;padding: 0;border: 1px solid white;}
+#team .col-sm-4 img ,#team .col-sm-6 img{width: 100%;}
+#team .teamImgParent{position: relative;}
+#team .teamImg{width: 100%;}
+#team .teamImgMark{position: absolute;left: 0;top: 0; width: 100%;height: 100%;background: rgba(0,0,0,0);transition: .5s background-color;}
+#team .teamImgMark:hover{background: rgba(0,0,0,0.5);}
+#team .teamImgMark div{width: 136px;height: 56px;border: 2px solid white;color: white;text-align: center;line-height: 56px;margin-top: -30px;margin-left: -70px; position: absolute;top: 50%;left: 50%;opacity:0;transition: .5s opacity;}
+#team .teamImgMark:hover div{opacity: 1;}
+#team .carousel{overflow: hidden;}
+#team .carouselBtnUl{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -40px;
+
+}
+#team .carouselBtn{width: 20px;height: 20px;border-radius: 50%;background: rgba(255,255,255,0.3); float: left;}
+#team .carouselBtnUl .active{background: rgba(255,255,255,0.7);}
+/*footer start*/
+#footer{padding: 50px 0;background: #1f2022;color: #CCCCCC; width: 100%;font-family: 微软雅黑;}
+#footer .left{font-size: 12px;line-height: 26px;}
+#footer img{margin: 10px 0;}
+#footer .pull-right ul {
+float: left;
+margin: 0 15px;
+font-size: 14px;
+padding-top: 10px;
+border-top: 2px solid #666;
+}
+
+#footer .pull-right ul a{color: #CCCCCC;text-decoration: none;}
+/*footer end*/
