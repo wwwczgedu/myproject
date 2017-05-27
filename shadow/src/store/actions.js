@@ -8,5 +8,20 @@ export default{
     },
     LOADING_HIDE:({commit})=>{
         commit(types.LOADING_HIDE);
-    }
+    },
+    CIRCLE_UP:({commit})=>{
+        commit(types.CIRCLE_UP);
+    },
+    CIRCLE_DOWN:({commit})=>{
+        commit(types.CIRCLE_DOWN);
+    },
+    RESOURCE_SHOW:({commit})=>{
+        commit(types.RESOURCE_SHOW);
+    },
+    RESOURCE_HIDE:({commit})=>{
+        commit(types.RESOURCE_HIDE);
+    },
+    CHANGE_RESOURCE_ROUTE:({commit},payload)=>{
+        commit(types.CHANGE_RESOURCE_ROUTE,payload);
+    },
 }

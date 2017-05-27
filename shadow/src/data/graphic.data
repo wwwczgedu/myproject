@@ -26,6 +26,7 @@
             "color":"blue",
             "colorValue":"#78bad3",
             "src":["item1_hover.png","item1.png"],
+            "hash":"blue12",
             "pos":{
                 left:'335px',
                 top:'-108px',
@@ -36,7 +37,7 @@
             },
             "arrowDirection":"left",
             "text":{
-                "intro":"text1",
+                "intro":"blue12",
                 "other":"1970"
             },
             "textPos":{
@@ -48,6 +49,7 @@
             "color":"blue",
             "colorValue":"#78bad3",
             "src":["item2_hover.png","item2.png"],
+            "hash":"blue13",
             "pos":{
                 left:'380px',
                 top:'-338px',
@@ -58,7 +60,7 @@
             },
             "arrowDirection":"left",
             "text":{
-                "intro":"text2",
+                "intro":"blue13",
                 "other":"1970"
             },
             "textPos":{
@@ -70,6 +72,7 @@
             "color":"blue",
             "colorValue":"#78bad3",
             "src":["item3_hover.png","item3.png"],
+            "hash":"blue14",
             "pos":{
                 left:'505px',
                 top:'-108px',
@@ -80,7 +83,7 @@
             },
             "arrowDirection":"left",
             "text":{
-                "intro":"text3",
+                "intro":"blue14",
                 "other":"1970"
             },
             "textPos":{
@@ -92,6 +95,7 @@
             "color":"blue",
             "colorValue":"#78bad3",
             "src":["item4_hover.png","item4.png"],
+            "hash":"blue15",
             "pos":{
                 left:'586px',
                 top:'-198px',
@@ -102,7 +106,7 @@
             },
             "arrowDirection":"left",
             "text":{
-                "intro":"text4",
+                "intro":"blue15",
                 "other":"1970"
             },
             "textPos":{
@@ -136,6 +140,7 @@
             "color":"red",
             "colorValue":"#7f2d2a",
             "src":["item1_hover.png","item1.png"],
+            "hash":"red12",
             "pos":{
                 left:'-95px',
                 top:'-388px',
@@ -158,6 +163,7 @@
             "color":"red",
             "colorValue":"#7f2d2a",
             "src":["item2_hover.png","item2.png"],
+            "hash":"red10",
             "pos":{
                 left:'55px',
                 top:'-348px',
@@ -180,6 +186,7 @@
             "color":"marine",
             "colorValue":"#657cb2",
             "src":["item1_hover.png","item1.png"],
+            "hash":"marine1",
             "pos":{
                 left:'-325px',
                 top:'-288px',
@@ -190,7 +197,7 @@
             },
             "arrowDirection":"right",
             "text":{
-                "intro":"text3",
+                "intro":"marine1",
                 "other":"1970"
             },
             "textPos":{
@@ -202,6 +209,7 @@
             "color":"marine",
             "colorValue":"#657cb2",
             "src":["item2_hover.png","item2.png"],
+            "hash":"marine12",
             "pos":{
                 left:'-525px',
                 top:'-288px',
@@ -212,7 +220,7 @@
             },
             "arrowDirection":"right",
             "text":{
-                "intro":"text3",
+                "intro":"marine12",
                 "other":"1970"
             },
             "textPos":{
@@ -224,6 +232,7 @@
             "color":"purple",
             "colorValue":"#654665",
             "src":["item1_hover.png","item1.png"],
+            "hash":"purple12",
             "pos":{
                 left:'-425px',
                 top:'-148px',
@@ -246,6 +255,7 @@
             "color":"purple",
             "colorValue":"#654665",
             "src":["item2_hover.png","item2.png"],
+            "hash":"purple13",
             "pos":{
                 left:'-625px',
                 top:'80px',
@@ -312,6 +322,7 @@
             "color":"green",
             "colorValue":"#5c9f17",
             "src":["item1_hover.png","item1.png"],
+            "hash":"green12",
             "pos":{
                 left:'-335px',
                 top:'200px',
@@ -334,6 +345,7 @@
             "color":"green",
             "colorValue":"#5c9f17",
             "src":["item2_hover.png","item2.png"],
+            "hash":"green13",
             "pos":{
                 left:'-535px',
                 top:'200px',
@@ -356,6 +368,7 @@
             "color":"green",
             "colorValue":"#5c9f17",
             "src":["item3_hover.png","item3.png"],
+            "hash":"green14",
             "pos":{
                 left:'-165px',
                 top:'300px',
@@ -378,6 +391,7 @@
             "color":"orange",
             "colorValue":"#f99a2d",
             "src":["item1_hover.png","item1.png"],
+            "hash":"orange12",
             "pos":{
                 left:'115px',
                 top:'250px',
@@ -400,6 +414,7 @@
             "color":"gray",
             "colorValue":"#585a60",
             "src":["item2_hover.png","item2.png"],
+            "hash":"gray12",
             "pos":{
                 left:'415px',
                 top:'150px',

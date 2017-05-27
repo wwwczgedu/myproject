@@ -6,18 +6,18 @@
                 <span @click="backToLine">back to timeline</span>
             </div>
         </div>
-        <div class="title" :style="{color:msg.colorValue}">{{msg.text.intro}}</div>
-        <div class="other">{{msg.text.other}}</div>
-        <div class="basic" v-for="(item,index) in msg.detail.basic" key="index">
+        <div class="title" :style="{color:detailMsg.colorValue}">{{detailMsg.text.intro}}</div>
+        <div class="other">{{detailMsg.text.other}}</div>
+        <div class="basic" v-for="(item,index) in detailMsg.detail.basic" key="index">
             {{item[0]}}
             <span class="name">({{item[1]}})</span>
         </div>
-        <p class="text1" :style="{color:msg.colorValue}">{{msg.text.intro}}-{{msg.detail.text1}}</p>
-        <p class="text2">{{msg.text.intro}}-{{msg.detail.text2}}</p>
+        <p class="text1" :style="{color:detailMsg.colorValue}">{{detailMsg.text.intro}}-{{detailMsg.detail.text1}}</p>
+        <p class="text2">{{detailMsg.text.intro}}-{{detailMsg.detail.text2}}</p>
         <div class="related">
             <span>Related:</span>
             <div>
-                <a href="" v-for="(item,index) in msg.detail.related" key="index" :style="item.style">
+                <a :href="item.route" v-for="(item,index) in detailMsg.detail.related" key="index" :style="item.style">
                     <img :src="'./src/assets/images/indexImg'+'/'+item.type+'/'+item.src" alt="">
                 </a>
             </div>
@@ -25,17 +25,69 @@
     </div>
 </template>
 <script>
+    import { mapGetters,mapActions } from 'vuex';
 export default{
-    computed:{
-        msg(){
-            for(var i=0;i<this.timelineData.item.length;i++){
-                if(this.detailRoute==this.timelineData.item[i].text.intro){
-                    return this.timelineData.item[i];
-                }
-            }
+    data(){
+        return{
+            msg:{
+                text:{},
+                detail:{}
+            },
+            to:null,
+            itemLength:0
         }
     },
+    computed:mapGetters([
+        'detailMsg'
+    ]),
+    mounted(){
+        this.itemLength=$('.item').length;
+        if(this.$store.getters.timelineMsg.length==0){
+            if(!this.$store.getters.timelineAll){
+                this.fetchData();
+            }
+            else {
+                this.$store.dispatch('CHANGE_TIMELINE_MSG');
+            }
+
+        }
+        if(this.itemLength!=0){
+            this.$store.dispatch('SET_TIMELINE_LEFT');
+        }
+
+    },
+    beforeUpdate(){
+        var This=this;
+//        if(this.itemLength==0){
+            this.$store.dispatch('SET_TIMELINE_LEFT').then(function () {
+//                This.itemLength=$('.item').length;
+                This.$store.dispatch('CHANGE_BTN_COLOR');
+            });
+//        }
+    },
     methods:{
+        fetchData(){
+            var _this=this;
+            this.$ajax.get('src/data/timeline.data').then(function(res){
+                _this.timelineData=eval("("+res.data+")");
+                _this.$store.dispatch('STORE_TIMELINEALL',{timelineAll:_this.timelineData});
+                _this.$store.dispatch('CHANGE_TIMELINE_MSG',{timelineMsg:_this.timelineMsg,timelineAll:_this.timelineData});
+                _this.getMsg();
+                _this.$store.dispatch('CHANGE_BTN_COLOR');
+                if(res.status==200){
+                    return true;
+                }
+
+            }).catch(function(err){
+                console.log(err);
+            });
+        },
+        getMsg(){
+            var _this=this;
+            this.$store.dispatch('CHANGE_ROUTE',{color:this.$route.params.color,item:this.$route.params.item}).then(function () {
+                _this.$store.dispatch('CHANGE_DETAIL_MSG');
+            });
+        },
         detailPageIn(){
             this.$store.dispatch('DETAILPAGE_IN');
         },
@@ -44,15 +96,18 @@ export default{
         },
         backToLine(){
             this.$store.dispatch('BACK_TO_LINE');
+            this.$store.dispatch('BACK_TO_LINE_BTN_DOWN');
             this.detailPageOut();
         }
     },
     watch: {
         $route(to,from){
-            if (to.path!=from.path){
+            console.log(this.msg)
+            if (this.$route.params.item){
+                this.detailRoute=this.$route.params.item;
                 this.detailPageIn();
             }
-
+            this.to=to.path
         }
     },
     props:{
@@ -81,6 +136,7 @@ export default{
         height: 100%;
         position: absolute;
         transform: translate(754.5px, 0px);
+        z-index: 20;
         /*background: greenyellow;*/
         /*right: 100px;*/
     }
@@ -152,6 +208,8 @@ export default{
         word-break:normal;
     }
     .related{
+        margin-top: -100px;
+        margin-left: 130px;
         text-align: left;
         position: relative;
         bottom: -200px;
@@ -163,9 +221,20 @@ export default{
     }
     .related div{
         position: absolute;
-        background: palevioletred;
+        /*background: palevioletred;*/
     }
-    .related a,.related img{
+    .related a{
+        margin-top: -80px;
+        margin-left: -50px;
+        position: absolute;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        z-index: 200;
+    }
+    .related img{
+        width: 100%;
+        height: 100%;
         position: absolute;
     }
 

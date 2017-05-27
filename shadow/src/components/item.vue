@@ -1,7 +1,7 @@
 <template>
     <div  class="items">
         <router-link tag="div" :to="'/'+item.color+'/'+item.text.intro" class="item" v-for="(item,index) in msg" :style="item.pos" key="index">
-            <img :src="'./src/assets/images/indexImg/'+item.type+'/'+item.src" alt="">
+            <img :src="'./src/assets/images/indexImg/'+item.type+'/'+item.src" alt="" @click="detailPageIn">
             <div class="btn" :style="[{backgroundColor:item.colorValue},item.btnPos]">
                 <div class="bg">
                     <div class="arrow"></div>
@@ -26,6 +26,19 @@ export default{
                     msg
                 }
             }
+        }
+    },
+    methods:{
+        detailPageIn(){
+            this.$store.dispatch('DETAILPAGE_IN');
+            this.$store.dispatch('CHANGE_DETAIL_MSG');
+//            this.getMsg();
+        },
+        getMsg(){
+            var _this=this;
+            this.$store.dispatch('CHANGE_ROUTE',{color:this.$route.params.color,item:this.$route.params.item}).then(function () {
+                _this.$store.dispatch('CHANGE_DETAIL_MSG');
+            });
         }
     }
 }

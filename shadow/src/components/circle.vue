@@ -12,8 +12,8 @@
                             <img src="../assets/images/circle/gray.png" alt="" class="img-responsive center-block">
                             <div class="row" v-for="item in circleData.circleBtnImg">
                                 <div class="col-xs-6"></div>
-                                <div class="col-xs-6" :class="'circle-'+item.color" :style="circleData.circleDataAngle.color==item.color?circleShowStyle:circleHideStyle">
-                                    <img :src="'./src/assets/images/circle/'+item.circleImg" alt="" class="img-responsive">
+                                <div class="col-xs-6" :class="'circle-'+item.color" :style="!color?(circleData.circleDataAngle.color==item.color?circleShowStyle:circleHideStyle):(item.color==color?circleColorStyle:circleHideStyle)" >
+                                    <img :src="'./src/assets/images/circle/'+item.circleImg" alt="" class="img-responsive" :style="">
                                 </div>
                             </div>
                         </div>
@@ -69,19 +69,37 @@
 //                    transform:'rotate('+((Math.ceil(this.circleData.angle)<=180?-180:180)-this.circleData.angle)+'deg)'
                     transform:'rotate('+(180-this.circleData.circleDataAngle.angle)+'deg)'
                 }
-            }
+            },
+            color:function () {
+                return this.$store.getters.timelineRoute;
+            },
+            circleColorStyle:function(){
+                return {
+                    opacity:1,
+                    transform:'rotate(-90deg)'
+                }
+            },
         },
         mounted(){
             this.fetchData();
             this.load();
+            this.circleStatus();
+        },
+        beforeUpdate(){
+            this.circleStatus();
         },
         updated(){
             this.textpos();
             if(this.up==true){
                 this.btnPos(true);
+                let circle=$('.circle');
+                let gray=$('.gray');
+                circle.css('bottom',0.5*(window.innerHeight-circle.height()));
+                gray.css('bottom',0.5*(circle.height()-gray.height()));
             }else {
                 this.btnPos(false);
             }
+
 
         },
         methods:{
@@ -123,6 +141,8 @@
                     elipse.addClass('active');
                 };
                 window.onresize=function () {
+                    circle=$('.circle');
+                    gray=$('.gray');
                     circle.css('bottom',0.5*(window.innerHeight-circle.height()));
                     gray.css('bottom',0.5*(circle.height()-gray.height()));
                     if(This.up)return false;
@@ -136,28 +156,35 @@
                 let gray=$('.gray');
                 let circle=$('.circle');
                 let elipse=$('.elipse');
+                let buttons=$('.buttons');
                 circle.css('bottom',0.5*(window.innerHeight-circle.height()));
                 gray.css('bottom',0.5*(circle.height()-gray.height()));
+                buttons.css('top','');
                 circle.addClass('active');
                 elipse.addClass('active');
                 this.up=true;
-                const This=this;
                 this.btnPos(true);
-
-                document.onclick=function () {
-                    This.circleDown();
-                }
             },
             circleDown(){
                 const gray=$('.gray');
                 const circle=$('.circle');
                 const elipse=$('.elipse');
-                circle.css('bottom',-0.87*circle.height())
+                circle.css('bottom',-0.8*circle.height());
                 circle.removeClass('active');
                 elipse.removeClass('active');
                 gray.css('bottom','');
                 this.up=false;
                 this.btnPos(false);
+            },
+            circleStatus(){
+//                alert(0)
+                if (!this.$route.params.color&&!this.$route.params.item){
+//                    alert(1)
+                    this.circleUp();
+                }else {
+//                    alert(2)
+                    this.circleDown();
+                }
             },
             circleOver() {
                 let color;
@@ -234,9 +261,13 @@
             }
         },
         watch: {
+
             $route(to,from){
-                if(to.path!='/graphic'){
+                this.circleStatus()
+                if(to.path!='/'){
                     this.circleDown();
+                }else {
+                    this.circleUp();
                 }
             }
         },
@@ -328,7 +359,7 @@
         background-repeat: no-repeat;
         background-position: center;
         transition: 1s;
-        z-index: 12 !important;
+        z-index: 20 !important;
     }
     .circle .inner .buttons .btn{
         border-radius: 50%;
@@ -337,7 +368,7 @@
         top: 0;
         opacity: 0;
         transition: .3s;
-
+        /*z-index: ;*/
     }
     .circle .inner .buttons .btn:hover {
         opacity: 1;

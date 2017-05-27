@@ -2,7 +2,7 @@
       <div id="app">
           <MenuComponent></MenuComponent>
           <HomeComponent></HomeComponent>
-          {{msg}}
+
       </div>
   </template>
 

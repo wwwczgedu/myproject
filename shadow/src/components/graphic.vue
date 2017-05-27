@@ -1,6 +1,6 @@
 <template>
     <div class="plot-area">
-        <div class="plot-area-item" v-for="item in graphicData.item" :style="item.pos">
+        <a class="plot-area-item" v-for="item in graphicData.item" :style="item.pos" :href="'#'+item.color+'/'+item.hash">
             <div class="item">
                 <img :src="'./src/assets/images/graphic/'+item.color+'/'+item.src[0]" alt="">
                 <img :src="'./src/assets/images/graphic/'+item.color+'/'+item.src[1]" alt="">
@@ -13,7 +13,7 @@
                     {{item.text.other}}
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 </template>
 <script>
@@ -36,7 +36,7 @@
                 }).catch(function(err){
                     console.log(err);
                 });
-            }
+            },
         }
     }
 </script>
@@ -48,6 +48,7 @@
         z-index: 2;
     }
     .plot-area-item{
+        display: inline-block;
         position: absolute;
     }
     .plot-area-item .item{

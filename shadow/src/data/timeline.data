@@ -37,7 +37,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -47,7 +47,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -85,7 +85,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -95,7 +95,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -134,7 +134,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -144,7 +144,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -183,7 +183,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -193,7 +193,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -233,7 +233,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -243,7 +243,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -282,7 +282,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -292,7 +292,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -331,7 +331,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -341,7 +341,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -380,7 +380,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -390,7 +390,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -429,7 +429,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -439,7 +439,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -478,7 +478,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -488,7 +488,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -527,7 +527,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -537,7 +537,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -577,7 +577,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -587,7 +587,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -625,7 +625,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -635,7 +635,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -674,7 +674,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -684,7 +684,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -723,7 +723,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -733,7 +733,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -773,7 +773,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -783,7 +783,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -822,7 +822,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -832,7 +832,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -871,7 +871,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -881,7 +881,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -920,7 +920,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -930,7 +930,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -969,7 +969,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -979,7 +979,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1018,7 +1018,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1028,7 +1028,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1067,7 +1067,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1077,7 +1077,56 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":12,
+            "color":"marine",
+            "colorValue":"#657cb2",
+            "type":"object",
+            "src":"item13.png",
+            "pos":{
+                left:'3550px',
+                top:'290px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"marine12",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1117,7 +1166,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1127,7 +1176,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1165,7 +1214,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1175,7 +1224,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1214,7 +1263,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1224,7 +1273,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1263,7 +1312,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1273,7 +1322,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1313,7 +1362,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1323,7 +1372,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1362,7 +1411,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1372,7 +1421,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1411,7 +1460,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1421,7 +1470,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1460,7 +1509,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1470,7 +1519,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1509,7 +1558,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1519,7 +1568,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1558,7 +1607,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1568,7 +1617,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1607,7 +1656,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1617,7 +1666,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1657,7 +1706,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1667,7 +1716,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1705,7 +1754,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1715,7 +1764,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1754,7 +1803,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1764,7 +1813,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1803,7 +1852,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1813,7 +1862,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1853,7 +1902,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1863,7 +1912,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1902,7 +1951,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1912,7 +1961,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -1951,7 +2000,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -1961,7 +2010,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2000,7 +2049,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2010,7 +2059,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2049,7 +2098,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2059,7 +2108,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2098,7 +2147,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2108,7 +2157,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2147,7 +2196,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2157,7 +2206,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2197,7 +2246,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2207,7 +2256,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2245,7 +2294,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2255,7 +2304,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2294,7 +2343,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2304,7 +2353,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2343,7 +2392,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2353,7 +2402,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2393,7 +2442,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2403,7 +2452,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2442,7 +2491,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2452,7 +2501,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2491,7 +2540,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2501,7 +2550,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2540,7 +2589,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2550,7 +2599,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2589,7 +2638,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2599,7 +2648,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2638,7 +2687,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2648,7 +2697,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2687,7 +2736,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2697,7 +2746,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2737,7 +2786,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2747,7 +2796,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2785,7 +2834,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2795,7 +2844,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2834,7 +2883,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2844,7 +2893,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2883,7 +2932,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2893,7 +2942,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2933,7 +2982,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2943,7 +2992,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -2982,7 +3031,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -2992,7 +3041,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3031,7 +3080,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3041,7 +3090,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3080,7 +3129,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3090,7 +3139,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3129,7 +3178,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3139,7 +3188,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3178,7 +3227,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3188,7 +3237,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3227,7 +3276,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3237,7 +3286,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3277,7 +3326,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3287,7 +3336,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3325,7 +3374,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3335,7 +3384,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3374,7 +3423,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3384,7 +3433,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3423,7 +3472,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3433,7 +3482,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3473,7 +3522,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3483,7 +3532,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3522,7 +3571,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3532,7 +3581,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3571,7 +3620,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3581,7 +3630,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3669,7 +3718,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3679,7 +3728,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3699,7 +3748,7 @@
             "src":"item5.jpg",
             "pos":{
                 left:'3050px',
-                top:'250px',
+                top:'350px',
             },
             "btnPos":{
                 right: "13px",
@@ -3718,7 +3767,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3728,7 +3777,7 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{
@@ -3767,7 +3816,7 @@
                 "text2":"text2",
                 "related":[
                     {
-                        "route":"/blue/blue11",
+                        "route":"#/blue/blue11",
                         "type":"object",
                         "src":"item5.jpg",
                         "style":{
@@ -3777,7 +3826,595 @@
                         }
                     },
                     {
-                        "route":"blue3",
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":12,
+            "color":"blue",
+            "colorValue":"#78bad3",
+            "type":"object",
+            "src":"item11.png",
+            "pos":{
+                left:'3500px',
+                top:'420px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"blue12",
+                "other":"1870-1970"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":13,
+            "color":"blue",
+            "colorValue":"#78bad3",
+            "type":"picture",
+            "src":"item12.png",
+            "pos":{
+                left:'3700px',
+                top:'120px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"blue13",
+                "other":"1870-1970"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":14,
+            "color":"blue",
+            "colorValue":"#78bad3",
+            "type":"picture",
+            "src":"item13.png",
+            "pos":{
+                left:'3960px',
+                top:'180px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"blue14",
+                "other":"1870-1970"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":15,
+            "color":"blue",
+            "colorValue":"#78bad3",
+            "type":"picture",
+            "src":"item14.png",
+            "pos":{
+                left:'4200px',
+                top:'220px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"blue15",
+                "other":"1870-1970"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":12,
+            "color":"red",
+            "colorValue":"#7f2d2a",
+            "type":"object",
+            "src":"item12.png",
+            "pos":{
+                left:'3450px',
+                top:'450px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"red12",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":12,
+            "color":"purple",
+            "colorValue":"#654665",
+            "type":"picture",
+            "src":"item15.png",
+            "pos":{
+                left:'3750px',
+                top:'250px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"purple12",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":13,
+            "color":"purple",
+            "colorValue":"#654665",
+            "type":"object",
+            "src":"item14.png",
+            "pos":{
+                left:'3750px',
+                top:'450px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"purple13",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":12,
+            "color":"green",
+            "colorValue":"#5c9f17",
+            "type":"object",
+            "src":"item15.png",
+            "pos":{
+                left:'3650px',
+                top:'450px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"green12",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":13,
+            "color":"green",
+            "colorValue":"#5c9f17",
+            "type":"object",
+            "src":"item16.png",
+            "pos":{
+                left:'3750px',
+                top:'450px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"green13",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":14,
+            "color":"green",
+            "colorValue":"#5c9f17",
+            "type":"picture",
+            "src":"item16.png",
+            "pos":{
+                left:'3850px',
+                top:'250px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"green14",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":12,
+            "color":"orange",
+            "colorValue":"#f99a2d",
+            "type":"picture",
+            "src":"item17.png",
+            "pos":{
+                left:'3750px',
+                top:'250px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"orange12",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
+                        "type":"picture",
+                        "src":"item1.jpg",
+                        "style":{
+                            left:"150px",
+                            top:"20px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id":12,
+            "color":"gray",
+            "colorValue":"#585a60",
+            "type":"object",
+            "src":"item17.png",
+            "pos":{
+                left:'3550px',
+                top:'450px',
+            },
+            "btnPos":{
+                right: "13px",
+                top: "10px"            },
+            // "arrowDirection":"down",
+            "text":{
+                "intro":"gray12",
+                "other":"1890-1950"
+            },
+            "detail":{
+                "basic":[
+                    ["name","French,1917-1985"],
+                    ["name","England,1923"],
+                ],
+                "text1":"text1",
+                "text2":"text2",
+                "related":[
+                    {
+                        "route":"#/blue/blue11",
+                        "type":"object",
+                        "src":"item5.jpg",
+                        "style":{
+                            left:"30px",
+                            top:"10px",
+                            transform: "scale(0.3, 0.3)"
+                        }
+                    },
+                    {
+                        "route":"#/blue/blue3",
                         "type":"picture",
                         "src":"item1.jpg",
                         "style":{

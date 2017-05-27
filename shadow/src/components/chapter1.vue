@@ -5,13 +5,13 @@
             <div class="tab">
                 <div class="prev" @click="prevFn">
                     <img src="../assets/images/button/timeline-prev-btn.png" alt="">
-                    <div class="arrow-warp">
+                    <div class="arrow-warp" :style="{backgroundColor:prevBtnColor}">
                         <img src="../assets/images/button/icon_arrow_left.png" alt="">
                     </div>
                 </div>
                 <div class="next" @click="nextFn">
                     <img src="../assets/images/button/timeline-next-btn.png" alt="">
-                    <div class="arrow-warp">
+                    <div class="arrow-warp" :style="{backgroundColor:nextBtnColor}">
                         <img src="../assets/images/button/icon_arrow_right.png" alt="">
                     </div>
                 </div>
@@ -33,26 +33,28 @@
     export default{
         data(){
             return{
+                msg:null,
                 timelineData:{item:[]},
                 centerIndex:0,
                 tabDirection:'prev',
-                detailRoute:''
+                detailRoute:'',
+                prevBtnColor:'',
+                nextBtnColor:''
             }
         },
         mounted(){
             this.fetchData();
-            this.$store.dispatch('CHANGE_TIMELINE_MSG',{timelineMsg:this.msg});
+            this.getMsg();
+            this.getBtnColor();
+        },
+        updated(){
+            this.getBtnColor();
+            if(this.$route.params.item){
+                this.$store.dispatch('SET_TIMELINE_LEFT');
+            }
         },
         computed:{
-            msg:function(){
-                var arr=[];
-                for (var i=0;i<this.timelineData.item.length;i++){
-                    if (this.timelineData.item[i].color==this.route){
-                        arr.push(this.timelineData.item[i]);
-                    }
-                }
-                return arr;
-            },
+
         },
         components: {
             DetailPage,
@@ -63,23 +65,42 @@
                 var _this=this;
                 this.$ajax.get('src/data/timeline.data').then(function(res){
                     _this.timelineData=eval("("+res.data+")");
-//                    console.log(_this.timelineData)
+                    _this.getMsg();
+                    _this.$store.dispatch('CHANGE_TIMELINE_MSG',{timelineMsg:_this.timelineMsg,timelineAll:_this.timelineData});
+                    _this.$store.dispatch('SET_TIMELINE_LEFT');
                 }).catch(function(err){
                     console.log(err);
                 });
             },
+            getMsg(){
+                var arr=[];
+                for (var i=0;i<this.timelineData.item.length;i++){
+                    if (this.timelineData.item[i].color==this.$store.getters.timelineRoute){
+                        arr.push(this.timelineData.item[i]);
+                    }
+                }
+                this.msg=arr;
+            },
             prevFn(){
                 this.$store.dispatch('PREV',{store:this.$store});
+                this.getBtnColor();
             },
             nextFn(){
                 this.$store.dispatch('NEXT',{store:this.$store});
+                this.getBtnColor();
             },
+            getBtnColor(){
+                this.$store.dispatch('CHANGE_BTN_COLOR');
+                this.prevBtnColor=this.$store.getters.prevBtnColor;
+                this.nextBtnColor=this.$store.getters.nextBtnColor;
+            }
         },
         watch: {
             $route(to,from){
-//                console.log(this.$route.params)
                 this.detailRoute=this.$route.params.item;
                 this.$store.dispatch('CHANGE_TIMELINE_MSG',{timelineMsg:this.msg});
+                this.getMsg();
+                this.getBtnColor();
                 if(this.$route.params.item){
                     this.$store.dispatch('SET_TIMELINE_LEFT');
                 }
